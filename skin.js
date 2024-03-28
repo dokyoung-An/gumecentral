@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ??VR ?? - ?????.ggsk
-// Generated 2024-03-28T10:44:46
+// Generated 2024-03-28T11:48:11
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_dropdown', 2, false, { ignoreInState: 0  });
@@ -151,40 +151,6 @@ function pano2vrSkin(player,base) {
 		}
 		me.__60.ggUpdatePosition=function (useTransition) {
 		}
-		el=me.__64=document.createElement('div');
-		el.ggId="\ub77c\uc778";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_rectangle ";
-		el.ggType='rectangle';
-		hs ='';
-		hs+='background : rgba(161,161,161,0.784314);';
-		hs+='border : 0px solid #000000;';
-		hs+='bottom : 0px;';
-		hs+='cursor : default;';
-		hs+='height : 1px;';
-		hs+='left : 185px;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 86%;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style.transformOrigin='50% 50%';
-		me.__64.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me.__64.ggUpdatePosition=function (useTransition) {
-		}
-		me.__60.appendChild(me.__64);
 		el=me.__63=document.createElement('div');
 		el.ggId="\ub85c\uace0";
 		el.ggDy=0;
@@ -903,6 +869,72 @@ function pano2vrSkin(player,base) {
 		me._text_8.ggUpdatePosition=function (useTransition) {
 		}
 		me.__60.appendChild(me._text_8);
+		el=me._container_1=document.createElement('div');
+		el.ggId="Container 1";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_container ";
+		el.ggType='container';
+		hs ='';
+		hs+='bottom : 0px;';
+		hs+='height : 1px;';
+		hs+='left : 185px;';
+		hs+='position : absolute;';
+		hs+='visibility : inherit;';
+		hs+='width : calc(100% - 185px);;';
+		hs+='pointer-events:none;';
+		hs+='min-width:230px;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._container_1.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._container_1.ggUpdatePosition=function (useTransition) {
+		}
+		el=me._rectangle_1=document.createElement('div');
+		el.ggId="Rectangle 1";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
+		hs ='';
+		hs+='background : #a1a1a1;';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : default;';
+		hs+='height : 1px;';
+		hs+='left : 0px;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : inherit;';
+		hs+='width : calc(100% - 30px);;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._rectangle_1.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._rectangle_1.ggUpdatePosition=function (useTransition) {
+		}
+		me._container_1.appendChild(me._rectangle_1);
+		me.__60.appendChild(me._container_1);
 		me.divSkin.appendChild(me.__60);
 		el=me._footer=document.createElement('div');
 		el.ggId="Footer";
@@ -6711,7 +6743,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__6.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\uc695\uc2e41", params);
+			var hs = player._("\ub4dc\ub808\uc2a4\ub8f8", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
