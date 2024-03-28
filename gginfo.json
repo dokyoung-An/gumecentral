@@ -2,7 +2,9 @@
 	"version": 1,
 	"type": "panorama",
 	"external": {
-		"js": [],
+		"js": [
+			"3rdparty/lottie/lottie.min.js"
+		],
 		"css": []
 	},
 	"skin": {
@@ -12,7 +14,7 @@
 	"player": {
 		"js": "pano2vr_player.js"
 	},
-	"creationdate": "2024-03-28T06:17:39.328Z",
+	"creationdate": "2024-03-28T07:14:52.208Z",
 	"configuration": "pano.xml",
 	"preview": {
 		"img": "preview.jpg",
