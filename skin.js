@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ??VR ?? - ?????.ggsk
-// Generated 2024-03-28T17:51:03
+// Generated 2024-03-29T15:04:11
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_dropdown', 2, false, { ignoreInState: 0  });
@@ -2514,7 +2514,7 @@ function pano2vrSkin(player,base) {
 		el=me._svg_10=document.createElement('div');
 		els=me._svg_10__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItYWxlcnQtY2lyY2xlIiB3aWR0aD0iMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz4KIDxsaW5lIHkxPSI4IiB4MT0iMTIiIHkyPSIxMiIgeDI9IjEyIi8+CiA8bGluZSB5MT0iMTYiIHgxPSIxMiIgeTI9IjE2IiB4Mj0iMTIuMDEiLz'+
+		hs='data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLWFsZXJ0LWNpcmNsZSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2Utd2lkdGg9IjEuNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogPGNpcmNsZSByPSIxMCIgY3k9IjEyIiBjeD0iMTIiLz4KIDxsaW5lIHgxPSIxMiIgeTI9IjEyIiB5MT0iOCIgeDI9IjEyIi8+CiA8bGluZSB4MT0iMTIiIHkyPSIxNiIgeTE9IjE2IiB4Mj0iMTIuMDEiLz'+
 			'4KPC9zdmc+Cg==';
 		me._svg_10__img.setAttribute('src',hs);
 		hs ='';
@@ -2600,7 +2600,7 @@ function pano2vrSkin(player,base) {
 		el=me._svg_21=document.createElement('div');
 		els=me._svg_21__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyBzdHJva2U9IiNmZmZmZmYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlLXdpZHRoPSIxLjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgY2xhc3M9ImZlYXRoZXIgZmVhdGhlci1wbHVzIiB3aWR0aD0iMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIgc3Ryb2tlLW9wYWNpdHk9IjEiPgogPGxpbmUgeTE9IjUiIHgxPSIxMiIgeTI9IjE5IiB4Mj0iMTIiLz4KIDxsaW5lIHkxPSIxMiIgeDE9IjUiIHkyPSIxMiIgeDI9IjE5Ii8+Cjwvc3ZnPgo=';
+		hs='data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLXBsdXMiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1vcGFjaXR5PSIxIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogPGxpbmUgeDE9IjEyIiB5Mj0iMTkiIHkxPSI1IiB4Mj0iMTIiLz4KIDxsaW5lIHgxPSI1IiB5Mj0iMTIiIHkxPSIxMiIgeDI9IjE5Ii8+Cjwvc3ZnPgo=';
 		me._svg_21__img.setAttribute('src',hs);
 		hs ='';
 		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
@@ -3348,7 +3348,7 @@ function pano2vrSkin(player,base) {
 		el=me._svg_1=document.createElement('div');
 		els=me._svg_1__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItYWxlcnQtY2lyY2xlIiB3aWR0aD0iMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz4KIDxsaW5lIHkxPSI4IiB4MT0iMTIiIHkyPSIxMiIgeDI9IjEyIi8+CiA8bGluZSB5MT0iMTYiIHgxPSIxMiIgeTI9IjE2IiB4Mj0iMTIuMDEiLz'+
+		hs='data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLWFsZXJ0LWNpcmNsZSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2Utd2lkdGg9IjEuNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogPGNpcmNsZSByPSIxMCIgY3k9IjEyIiBjeD0iMTIiLz4KIDxsaW5lIHgxPSIxMiIgeTI9IjEyIiB5MT0iOCIgeDI9IjEyIi8+CiA8bGluZSB4MT0iMTIiIHkyPSIxNiIgeTE9IjE2IiB4Mj0iMTIuMDEiLz'+
 			'4KPC9zdmc+Cg==';
 		me._svg_1__img.setAttribute('src',hs);
 		hs ='';
@@ -3434,7 +3434,7 @@ function pano2vrSkin(player,base) {
 		el=me._svg_20=document.createElement('div');
 		els=me._svg_20__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyBzdHJva2U9IiNmZmZmZmYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlLXdpZHRoPSIxLjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgY2xhc3M9ImZlYXRoZXIgZmVhdGhlci1wbHVzIiB3aWR0aD0iMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIgc3Ryb2tlLW9wYWNpdHk9IjEiPgogPGxpbmUgeTE9IjUiIHgxPSIxMiIgeTI9IjE5IiB4Mj0iMTIiLz4KIDxsaW5lIHkxPSIxMiIgeDE9IjUiIHkyPSIxMiIgeDI9IjE5Ii8+Cjwvc3ZnPgo=';
+		hs='data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLXBsdXMiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1vcGFjaXR5PSIxIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogPGxpbmUgeDE9IjEyIiB5Mj0iMTkiIHkxPSI1IiB4Mj0iMTIiLz4KIDxsaW5lIHgxPSI1IiB5Mj0iMTIiIHkxPSIxMiIgeDI9IjE5Ii8+Cjwvc3ZnPgo=';
 		me._svg_20__img.setAttribute('src',hs);
 		hs ='';
 		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
@@ -3565,6 +3565,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
+		hs+='z-index: 99;';
 		hs+='background : #221e1f;';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
@@ -3602,7 +3603,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='height : 100%;';
 		hs+='position : absolute;';
-		hs+='right : 3%;';
+		hs+='right : 0%;';
 		hs+='top : calc(50% - ((100% + 0px) / 2) + 0px);';
 		hs+='visibility : hidden;';
 		hs+='width : 150px;';
@@ -3671,7 +3672,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow-y : hidden;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 155px;';
+		hs+='width : 120px;';
 		hs+="";
 		els.setAttribute('style',hs);
 		me._scrollarea_1.ggScrollByX = function(diffX) {
@@ -3811,11 +3812,11 @@ function pano2vrSkin(player,base) {
 		}
 		elVertScrollBg = me._scrollarea_1__vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 0px; height: 97.344px; background-color: rgba(128,128,128,1); pointer-events: auto;');
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 0px; height: 124.8px; background-color: rgba(128,128,128,1); pointer-events: auto;');
 		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
 		elVertScrollFg = me._scrollarea_1__vertScrollFg = document.createElement('div');
 		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 0px; height: 97.344px; background-color: rgba(192,192,192,1); pointer-events: auto;');
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 0px; height: 124.8px; background-color: rgba(192,192,192,1); pointer-events: auto;');
 		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
 		me._scrollarea_1.ggScrollPosY = 0;
 		me._scrollarea_1.ggScrollPosYPercent = 0.0;
@@ -3920,15 +3921,17 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_scrollarea ";
 		el.ggType='scrollarea';
 		hs ='';
+		hs+='background : rgba(161,161,161,0.470588);';
 		hs+='border : 0px solid #000000;';
-		hs+='height : 78%;';
+		hs+='height : 100%;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
 		hs+='right : 0%;';
-		hs+='top : calc(50% - ((78% + 0px) / 2) + 0px);';
+		hs+='top : calc(50% - ((100% + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
-		hs+='width : 150px;';
+		hs+='width : 120px;';
 		hs+='pointer-events:auto;';
+		hs+='border-radius:10px;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		me._scrollarea_1.ggIsActive=function() {
@@ -3981,7 +3984,7 @@ function pano2vrSkin(player,base) {
 				if (minY < 0) this.ggContentTopOffset = -minY;
 				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				var contentWidth = 155;
+				var contentWidth = 120;
 				this.ggContent.style.width = contentWidth + 'px';
 				var contentHeight = 330;
 				this.ggContent.style.height = contentHeight + 'px';
@@ -4096,11 +4099,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -4208,6 +4211,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me._text_9.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\ud604\uad00"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me._text_9.ggCurrentLogicStateText != newLogicStateText) {
+				me._text_9.ggCurrentLogicStateText = newLogicStateText;
+				me._text_9.style.transition='color 0s';
+				if (me._text_9.ggCurrentLogicStateText == 0) {
+					if (me._text_9.ggUpdateText) {
+					me._text_9.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\ud604\uad00<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me._text_9.ggUpdateText();
+					} else {
+						if (me._text_9.ggUpdatePosition) me._text_9.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me._text_9.ggUpdateText) {
+					me._text_9.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\ud604\uad00", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me._text_9.ggUpdateText();
+					} else {
+						if (me._text_9.ggUpdatePosition) me._text_9.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me._text_9.logicBlock_text();
 		me._text_9.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -4257,7 +4309,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -4365,11 +4417,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -4477,6 +4529,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__33.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uac70\uc2e4"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__33.ggCurrentLogicStateText != newLogicStateText) {
+				me.__33.ggCurrentLogicStateText = newLogicStateText;
+				me.__33.style.transition='color 0s';
+				if (me.__33.ggCurrentLogicStateText == 0) {
+					if (me.__33.ggUpdateText) {
+					me.__33.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uac70\uc2e4<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__33.ggUpdateText();
+					} else {
+						if (me.__33.ggUpdatePosition) me.__33.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__33.ggUpdateText) {
+					me.__33.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uac70\uc2e4", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__33.ggUpdateText();
+					} else {
+						if (me.__33.ggUpdatePosition) me.__33.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__33.logicBlock_text();
 		me.__33.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -4526,7 +4627,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -4634,11 +4735,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -4746,6 +4847,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__27.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\ubcf5\ub3c4"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__27.ggCurrentLogicStateText != newLogicStateText) {
+				me.__27.ggCurrentLogicStateText = newLogicStateText;
+				me.__27.style.transition='color 0s';
+				if (me.__27.ggCurrentLogicStateText == 0) {
+					if (me.__27.ggUpdateText) {
+					me.__27.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\ubcf5\ub3c4<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__27.ggUpdateText();
+					} else {
+						if (me.__27.ggUpdatePosition) me.__27.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__27.ggUpdateText) {
+					me.__27.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\ubcf5\ub3c4", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__27.ggUpdateText();
+					} else {
+						if (me.__27.ggUpdatePosition) me.__27.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__27.logicBlock_text();
 		me.__27.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -4795,7 +4945,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -4903,11 +5053,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -5015,6 +5165,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__1_4.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uc695\uc2e41"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__1_4.ggCurrentLogicStateText != newLogicStateText) {
+				me.__1_4.ggCurrentLogicStateText = newLogicStateText;
+				me.__1_4.style.transition='color 0s';
+				if (me.__1_4.ggCurrentLogicStateText == 0) {
+					if (me.__1_4.ggUpdateText) {
+					me.__1_4.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uc695\uc2e41<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_4.ggUpdateText();
+					} else {
+						if (me.__1_4.ggUpdatePosition) me.__1_4.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__1_4.ggUpdateText) {
+					me.__1_4.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uc695\uc2e41", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_4.ggUpdateText();
+					} else {
+						if (me.__1_4.ggUpdatePosition) me.__1_4.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__1_4.logicBlock_text();
 		me.__1_4.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -5064,7 +5263,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -5172,11 +5371,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -5284,6 +5483,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__18.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uc8fc\ubc29"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__18.ggCurrentLogicStateText != newLogicStateText) {
+				me.__18.ggCurrentLogicStateText = newLogicStateText;
+				me.__18.style.transition='color 0s';
+				if (me.__18.ggCurrentLogicStateText == 0) {
+					if (me.__18.ggUpdateText) {
+					me.__18.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uc8fc\ubc29<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__18.ggUpdateText();
+					} else {
+						if (me.__18.ggUpdatePosition) me.__18.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__18.ggUpdateText) {
+					me.__18.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uc8fc\ubc29", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__18.ggUpdateText();
+					} else {
+						if (me.__18.ggUpdatePosition) me.__18.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__18.logicBlock_text();
 		me.__18.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -5333,7 +5581,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -5441,11 +5689,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((60% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 60%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -5554,6 +5802,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__1_2.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\ud32c\ud2b8\ub9ac1"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__1_2.ggCurrentLogicStateText != newLogicStateText) {
+				me.__1_2.ggCurrentLogicStateText = newLogicStateText;
+				me.__1_2.style.transition='color 0s';
+				if (me.__1_2.ggCurrentLogicStateText == 0) {
+					if (me.__1_2.ggUpdateText) {
+					me.__1_2.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\ud32c\ud2b8\ub9ac1<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_2.ggUpdateText();
+					} else {
+						if (me.__1_2.ggUpdatePosition) me.__1_2.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__1_2.ggUpdateText) {
+					me.__1_2.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\ud32c\ud2b8\ub9ac1", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_2.ggUpdateText();
+					} else {
+						if (me.__1_2.ggUpdatePosition) me.__1_2.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__1_2.logicBlock_text();
 		me.__1_2.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -5603,7 +5900,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -5711,11 +6008,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -5824,6 +6121,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__1_0.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uce68\uc2e41"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__1_0.ggCurrentLogicStateText != newLogicStateText) {
+				me.__1_0.ggCurrentLogicStateText = newLogicStateText;
+				me.__1_0.style.transition='color 0s';
+				if (me.__1_0.ggCurrentLogicStateText == 0) {
+					if (me.__1_0.ggUpdateText) {
+					me.__1_0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uce68\uc2e41<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_0.ggUpdateText();
+					} else {
+						if (me.__1_0.ggUpdatePosition) me.__1_0.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__1_0.ggUpdateText) {
+					me.__1_0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uce68\uc2e41", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_0.ggUpdateText();
+					} else {
+						if (me.__1_0.ggUpdatePosition) me.__1_0.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__1_0.logicBlock_text();
 		me.__1_0.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -5873,7 +6219,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -5981,11 +6327,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((60% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 60%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -6093,6 +6439,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__10.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\ub4dc\ub808\uc2a4\ub8f8"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__10.ggCurrentLogicStateText != newLogicStateText) {
+				me.__10.ggCurrentLogicStateText = newLogicStateText;
+				me.__10.style.transition='color 0s';
+				if (me.__10.ggCurrentLogicStateText == 0) {
+					if (me.__10.ggUpdateText) {
+					me.__10.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\ub4dc\ub808\uc2a4\ub8f8<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__10.ggUpdateText();
+					} else {
+						if (me.__10.ggUpdatePosition) me.__10.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__10.ggUpdateText) {
+					me.__10.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\ub4dc\ub808\uc2a4\ub8f8", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__10.ggUpdateText();
+					} else {
+						if (me.__10.ggUpdatePosition) me.__10.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__10.logicBlock_text();
 		me.__10.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -6142,7 +6537,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -6250,11 +6645,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -6362,6 +6757,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__2_2.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uc695\uc2e42"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__2_2.ggCurrentLogicStateText != newLogicStateText) {
+				me.__2_2.ggCurrentLogicStateText = newLogicStateText;
+				me.__2_2.style.transition='color 0s';
+				if (me.__2_2.ggCurrentLogicStateText == 0) {
+					if (me.__2_2.ggUpdateText) {
+					me.__2_2.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uc695\uc2e42<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__2_2.ggUpdateText();
+					} else {
+						if (me.__2_2.ggUpdatePosition) me.__2_2.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__2_2.ggUpdateText) {
+					me.__2_2.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uc695\uc2e42", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__2_2.ggUpdateText();
+					} else {
+						if (me.__2_2.ggUpdatePosition) me.__2_2.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__2_2.logicBlock_text();
 		me.__2_2.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -6411,7 +6855,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -6519,11 +6963,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -6631,6 +7075,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__2_0.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uce68\uc2e42"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__2_0.ggCurrentLogicStateText != newLogicStateText) {
+				me.__2_0.ggCurrentLogicStateText = newLogicStateText;
+				me.__2_0.style.transition='color 0s';
+				if (me.__2_0.ggCurrentLogicStateText == 0) {
+					if (me.__2_0.ggUpdateText) {
+					me.__2_0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uce68\uc2e42<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__2_0.ggUpdateText();
+					} else {
+						if (me.__2_0.ggUpdatePosition) me.__2_0.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__2_0.ggUpdateText) {
+					me.__2_0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uce68\uc2e42", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__2_0.ggUpdateText();
+					} else {
+						if (me.__2_0.ggUpdatePosition) me.__2_0.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__2_0.logicBlock_text();
 		me.__2_0.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -6680,7 +7173,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -6788,11 +7281,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -6900,6 +7393,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__3_0.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uce68\uc2e43"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__3_0.ggCurrentLogicStateText != newLogicStateText) {
+				me.__3_0.ggCurrentLogicStateText = newLogicStateText;
+				me.__3_0.style.transition='color 0s';
+				if (me.__3_0.ggCurrentLogicStateText == 0) {
+					if (me.__3_0.ggUpdateText) {
+					me.__3_0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uce68\uc2e43<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__3_0.ggUpdateText();
+					} else {
+						if (me.__3_0.ggUpdatePosition) me.__3_0.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__3_0.ggUpdateText) {
+					me.__3_0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uce68\uc2e43", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__3_0.ggUpdateText();
+					} else {
+						if (me.__3_0.ggUpdatePosition) me.__3_0.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__3_0.logicBlock_text();
 		me.__3_0.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -6949,7 +7491,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -7073,13 +7615,13 @@ function pano2vrSkin(player,base) {
 		el.ggHPercentVisible = 1.0;
 		el.ggIsDragging = false;
 		hs ='';
-		hs+='height : 330px;';
+		hs+='height : 300px;';
 		hs+='left : 0px;';
 		hs+='overflow-x : hidden;';
 		hs+='overflow-y : hidden;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 155px;';
+		hs+='width : 120px;';
 		hs+="";
 		els.setAttribute('style',hs);
 		me._scrollarea_1b.ggScrollByX = function(diffX) {
@@ -7219,11 +7761,11 @@ function pano2vrSkin(player,base) {
 		}
 		elVertScrollBg = me._scrollarea_1b__vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 0px; height: 97.344px; background-color: rgba(128,128,128,1); pointer-events: auto;');
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 0px; height: 124.8px; background-color: rgba(128,128,128,1); pointer-events: auto;');
 		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
 		elVertScrollFg = me._scrollarea_1b__vertScrollFg = document.createElement('div');
 		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 0px; height: 97.344px; background-color: rgba(192,192,192,1); pointer-events: auto;');
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 0px; height: 124.8px; background-color: rgba(192,192,192,1); pointer-events: auto;');
 		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
 		me._scrollarea_1b.ggScrollPosY = 0;
 		me._scrollarea_1b.ggScrollPosYPercent = 0.0;
@@ -7328,15 +7870,17 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_scrollarea ";
 		el.ggType='scrollarea';
 		hs ='';
+		hs+='background : rgba(161,161,161,0.470588);';
 		hs+='border : 0px solid #000000;';
-		hs+='height : 78%;';
-		hs+='left : 0%;';
+		hs+='height : 100%;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((78% + 0px) / 2) + 0px);';
+		hs+='right : 0%;';
+		hs+='top : calc(50% - ((100% + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
-		hs+='width : 150px;';
+		hs+='width : 120px;';
 		hs+='pointer-events:auto;';
+		hs+='border-radius:10px;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		me._scrollarea_1b.ggIsActive=function() {
@@ -7389,9 +7933,9 @@ function pano2vrSkin(player,base) {
 				if (minY < 0) this.ggContentTopOffset = -minY;
 				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				var contentWidth = 155;
+				var contentWidth = 120;
 				this.ggContent.style.width = contentWidth + 'px';
-				var contentHeight = 330;
+				var contentHeight = 300;
 				this.ggContent.style.height = contentHeight + 'px';
 			var scaleX = this.getBoundingClientRect().width / this.offsetWidth;
 				this.ggContentWidth = contentWidth / scaleX;
@@ -7504,11 +8048,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -7616,6 +8160,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me._text_9b.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\ud604\uad00"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me._text_9b.ggCurrentLogicStateText != newLogicStateText) {
+				me._text_9b.ggCurrentLogicStateText = newLogicStateText;
+				me._text_9b.style.transition='color 0s';
+				if (me._text_9b.ggCurrentLogicStateText == 0) {
+					if (me._text_9b.ggUpdateText) {
+					me._text_9b.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\ud604\uad00<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me._text_9b.ggUpdateText();
+					} else {
+						if (me._text_9b.ggUpdatePosition) me._text_9b.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me._text_9b.ggUpdateText) {
+					me._text_9b.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\ud604\uad00", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me._text_9b.ggUpdateText();
+					} else {
+						if (me._text_9b.ggUpdatePosition) me._text_9b.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me._text_9b.logicBlock_text();
 		me._text_9b.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -7665,7 +8258,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -7773,11 +8366,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -7885,6 +8478,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__b7.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uac70\uc2e4"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__b7.ggCurrentLogicStateText != newLogicStateText) {
+				me.__b7.ggCurrentLogicStateText = newLogicStateText;
+				me.__b7.style.transition='color 0s';
+				if (me.__b7.ggCurrentLogicStateText == 0) {
+					if (me.__b7.ggUpdateText) {
+					me.__b7.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uac70\uc2e4<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__b7.ggUpdateText();
+					} else {
+						if (me.__b7.ggUpdatePosition) me.__b7.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__b7.ggUpdateText) {
+					me.__b7.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uac70\uc2e4", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__b7.ggUpdateText();
+					} else {
+						if (me.__b7.ggUpdatePosition) me.__b7.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__b7.logicBlock_text();
 		me.__b7.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -7934,7 +8576,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -8042,11 +8684,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -8154,6 +8796,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__1_b4.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uc695\uc2e41"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__1_b4.ggCurrentLogicStateText != newLogicStateText) {
+				me.__1_b4.ggCurrentLogicStateText = newLogicStateText;
+				me.__1_b4.style.transition='color 0s';
+				if (me.__1_b4.ggCurrentLogicStateText == 0) {
+					if (me.__1_b4.ggUpdateText) {
+					me.__1_b4.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uc695\uc2e41<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_b4.ggUpdateText();
+					} else {
+						if (me.__1_b4.ggUpdatePosition) me.__1_b4.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__1_b4.ggUpdateText) {
+					me.__1_b4.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uc695\uc2e41", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_b4.ggUpdateText();
+					} else {
+						if (me.__1_b4.ggUpdatePosition) me.__1_b4.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__1_b4.logicBlock_text();
 		me.__1_b4.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -8203,7 +8894,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -8311,11 +9002,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -8423,6 +9114,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__b4.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uc8fc\ubc29"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__b4.ggCurrentLogicStateText != newLogicStateText) {
+				me.__b4.ggCurrentLogicStateText = newLogicStateText;
+				me.__b4.style.transition='color 0s';
+				if (me.__b4.ggCurrentLogicStateText == 0) {
+					if (me.__b4.ggUpdateText) {
+					me.__b4.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uc8fc\ubc29<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__b4.ggUpdateText();
+					} else {
+						if (me.__b4.ggUpdatePosition) me.__b4.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__b4.ggUpdateText) {
+					me.__b4.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uc8fc\ubc29", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__b4.ggUpdateText();
+					} else {
+						if (me.__b4.ggUpdatePosition) me.__b4.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__b4.logicBlock_text();
 		me.__b4.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -8472,7 +9212,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -8580,11 +9320,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -8693,6 +9433,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__1_b2.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\ud32c\ud2b8\ub9ac"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__1_b2.ggCurrentLogicStateText != newLogicStateText) {
+				me.__1_b2.ggCurrentLogicStateText = newLogicStateText;
+				me.__1_b2.style.transition='color 0s';
+				if (me.__1_b2.ggCurrentLogicStateText == 0) {
+					if (me.__1_b2.ggUpdateText) {
+					me.__1_b2.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\ud32c\ud2b8\ub9ac<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_b2.ggUpdateText();
+					} else {
+						if (me.__1_b2.ggUpdatePosition) me.__1_b2.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__1_b2.ggUpdateText) {
+					me.__1_b2.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\ud32c\ud2b8\ub9ac", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_b2.ggUpdateText();
+					} else {
+						if (me.__1_b2.ggUpdatePosition) me.__1_b2.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__1_b2.logicBlock_text();
 		me.__1_b2.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -8742,7 +9531,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -8850,11 +9639,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -8963,6 +9752,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__1_b0.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uce68\uc2e41"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__1_b0.ggCurrentLogicStateText != newLogicStateText) {
+				me.__1_b0.ggCurrentLogicStateText = newLogicStateText;
+				me.__1_b0.style.transition='color 0s';
+				if (me.__1_b0.ggCurrentLogicStateText == 0) {
+					if (me.__1_b0.ggUpdateText) {
+					me.__1_b0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uce68\uc2e41<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_b0.ggUpdateText();
+					} else {
+						if (me.__1_b0.ggUpdatePosition) me.__1_b0.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__1_b0.ggUpdateText) {
+					me.__1_b0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uce68\uc2e41", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__1_b0.ggUpdateText();
+					} else {
+						if (me.__1_b0.ggUpdatePosition) me.__1_b0.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__1_b0.logicBlock_text();
 		me.__1_b0.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -9012,7 +9850,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -9120,11 +9958,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((60% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 60%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -9211,7 +10049,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__b0.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\uc695\uc2e41", params);
+			var hs = player._("\ub4dc\ub808\uc2a4\ub8f8", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -9232,6 +10070,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__b0.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\ub4dc\ub808\uc2a4\ub8f8"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__b0.ggCurrentLogicStateText != newLogicStateText) {
+				me.__b0.ggCurrentLogicStateText = newLogicStateText;
+				me.__b0.style.transition='color 0s';
+				if (me.__b0.ggCurrentLogicStateText == 0) {
+					if (me.__b0.ggUpdateText) {
+					me.__b0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\ub4dc\ub808\uc2a4\ub8f8<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__b0.ggUpdateText();
+					} else {
+						if (me.__b0.ggUpdatePosition) me.__b0.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__b0.ggUpdateText) {
+					me.__b0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\ub4dc\ub808\uc2a4\ub8f8", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__b0.ggUpdateText();
+					} else {
+						if (me.__b0.ggUpdatePosition) me.__b0.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__b0.logicBlock_text();
 		me.__b0.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -9281,7 +10168,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -9389,11 +10276,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -9501,6 +10388,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__2_b2.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uc695\uc2e42"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__2_b2.ggCurrentLogicStateText != newLogicStateText) {
+				me.__2_b2.ggCurrentLogicStateText = newLogicStateText;
+				me.__2_b2.style.transition='color 0s';
+				if (me.__2_b2.ggCurrentLogicStateText == 0) {
+					if (me.__2_b2.ggUpdateText) {
+					me.__2_b2.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uc695\uc2e42<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__2_b2.ggUpdateText();
+					} else {
+						if (me.__2_b2.ggUpdatePosition) me.__2_b2.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__2_b2.ggUpdateText) {
+					me.__2_b2.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uc695\uc2e42", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__2_b2.ggUpdateText();
+					} else {
+						if (me.__2_b2.ggUpdatePosition) me.__2_b2.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__2_b2.logicBlock_text();
 		me.__2_b2.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -9550,7 +10486,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -9658,11 +10594,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -9770,6 +10706,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__2_b0.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uce68\uc2e42"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__2_b0.ggCurrentLogicStateText != newLogicStateText) {
+				me.__2_b0.ggCurrentLogicStateText = newLogicStateText;
+				me.__2_b0.style.transition='color 0s';
+				if (me.__2_b0.ggCurrentLogicStateText == 0) {
+					if (me.__2_b0.ggUpdateText) {
+					me.__2_b0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uce68\uc2e42<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__2_b0.ggUpdateText();
+					} else {
+						if (me.__2_b0.ggUpdatePosition) me.__2_b0.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__2_b0.ggUpdateText) {
+					me.__2_b0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uce68\uc2e42", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__2_b0.ggUpdateText();
+					} else {
+						if (me.__2_b0.ggUpdatePosition) me.__2_b0.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__2_b0.logicBlock_text();
 		me.__2_b0.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -9819,7 +10804,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -9927,11 +10912,11 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 25px;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((40% + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((46% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 40%;';
+		hs+='width : 46%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -10039,6 +11024,55 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__3_b0.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((player._(me.ggUserdata.title) == "\uce68\uc2e43"))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me.__3_b0.ggCurrentLogicStateText != newLogicStateText) {
+				me.__3_b0.ggCurrentLogicStateText = newLogicStateText;
+				me.__3_b0.style.transition='color 0s';
+				if (me.__3_b0.ggCurrentLogicStateText == 0) {
+					if (me.__3_b0.ggUpdateText) {
+					me.__3_b0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("<b>\uce68\uc2e43<\/b>", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__3_b0.ggUpdateText();
+					} else {
+						if (me.__3_b0.ggUpdatePosition) me.__3_b0.ggUpdatePosition();
+					}
+				}
+				else {
+					if (me.__3_b0.ggUpdateText) {
+					me.__3_b0.ggUpdateText=function() {
+						var params = [];
+						var hs = player._("\uce68\uc2e43", params);
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					me.__3_b0.ggUpdateText();
+					} else {
+						if (me.__3_b0.ggUpdatePosition) me.__3_b0.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me.__3_b0.logicBlock_text();
 		me.__3_b0.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
@@ -10088,7 +11122,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : default;';
 		hs+='height : 9px;';
 		hs+='position : absolute;';
-		hs+='right : -39px;';
+		hs+='right : -25px;';
 		hs+='top : calc(50% - ((9px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
 		hs+='width : 13px;';
@@ -10824,7 +11858,7 @@ function pano2vrSkin(player,base) {
 		el=me._svg_2=document.createElement('div');
 		els=me._svg_2__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyBzdHJva2U9IiNmZmZmZmYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlLXdpZHRoPSIxLjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgY2xhc3M9ImZlYXRoZXIgZmVhdGhlci1wbHVzIiB3aWR0aD0iMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIgc3Ryb2tlLW9wYWNpdHk9IjEiPgogPGxpbmUgeTE9IjUiIHgxPSIxMiIgeTI9IjE5IiB4Mj0iMTIiLz4KIDxsaW5lIHkxPSIxMiIgeDE9IjUiIHkyPSIxMiIgeDI9IjE5Ii8+Cjwvc3ZnPgo=';
+		hs='data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLXBsdXMiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1vcGFjaXR5PSIxIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogPGxpbmUgeDE9IjEyIiB5Mj0iMTkiIHkxPSI1IiB4Mj0iMTIiLz4KIDxsaW5lIHgxPSI1IiB5Mj0iMTIiIHkxPSIxMiIgeDI9IjE5Ii8+Cjwvc3ZnPgo=';
 		me._svg_2__img.setAttribute('src',hs);
 		hs ='';
 		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
@@ -11908,67 +12942,88 @@ function pano2vrSkin(player,base) {
 		me.__5.logicBlock_alpha();
 		me.__7.logicBlock_visible();
 		me._rectangle_3.logicBlock_backgroundcolor();
+		me._text_9.logicBlock_text();
 		me._text_9.logicBlock_textcolor();
 		me.__36.logicBlock_backgroundcolor();
 		me.__32.logicBlock_backgroundcolor();
+		me.__33.logicBlock_text();
 		me.__33.logicBlock_textcolor();
 		me.__34.logicBlock_backgroundcolor();
 		me.__26.logicBlock_backgroundcolor();
+		me.__27.logicBlock_text();
 		me.__27.logicBlock_textcolor();
 		me.__28.logicBlock_backgroundcolor();
 		me.__1_3.logicBlock_backgroundcolor();
+		me.__1_4.logicBlock_text();
 		me.__1_4.logicBlock_textcolor();
 		me.__24.logicBlock_backgroundcolor();
 		me.__17.logicBlock_backgroundcolor();
+		me.__18.logicBlock_text();
 		me.__18.logicBlock_textcolor();
 		me.__19.logicBlock_backgroundcolor();
 		me.__1_1.logicBlock_backgroundcolor();
+		me.__1_2.logicBlock_text();
 		me.__1_2.logicBlock_textcolor();
 		me.__15.logicBlock_backgroundcolor();
 		me.__1_.logicBlock_backgroundcolor();
+		me.__1_0.logicBlock_text();
 		me.__1_0.logicBlock_textcolor();
 		me.__13.logicBlock_backgroundcolor();
 		me.__9.logicBlock_backgroundcolor();
+		me.__10.logicBlock_text();
 		me.__10.logicBlock_textcolor();
 		me.__11.logicBlock_backgroundcolor();
 		me.__2_1.logicBlock_backgroundcolor();
+		me.__2_2.logicBlock_text();
 		me.__2_2.logicBlock_textcolor();
 		me.__23.logicBlock_backgroundcolor();
 		me.__2_.logicBlock_backgroundcolor();
+		me.__2_0.logicBlock_text();
 		me.__2_0.logicBlock_textcolor();
 		me.__21.logicBlock_backgroundcolor();
 		me.__3_.logicBlock_backgroundcolor();
+		me.__3_0.logicBlock_text();
 		me.__3_0.logicBlock_textcolor();
 		me.__31.logicBlock_backgroundcolor();
 		me._b.logicBlock_visible();
 		me._rectangle_3b.logicBlock_backgroundcolor();
+		me._text_9b.logicBlock_text();
 		me._text_9b.logicBlock_textcolor();
 		me.__b9.logicBlock_backgroundcolor();
 		me._b3.logicBlock_backgroundcolor();
+		me.__b7.logicBlock_text();
 		me.__b7.logicBlock_textcolor();
 		me.__b8.logicBlock_backgroundcolor();
 		me.__1_b3.logicBlock_backgroundcolor();
+		me.__1_b4.logicBlock_text();
 		me.__1_b4.logicBlock_textcolor();
 		me.__b6.logicBlock_backgroundcolor();
 		me.__b3.logicBlock_backgroundcolor();
+		me.__b4.logicBlock_text();
 		me.__b4.logicBlock_textcolor();
 		me.__b5.logicBlock_backgroundcolor();
 		me.__1_b1.logicBlock_backgroundcolor();
+		me.__1_b2.logicBlock_text();
 		me.__1_b2.logicBlock_textcolor();
 		me.__b2.logicBlock_backgroundcolor();
 		me.__1_b.logicBlock_backgroundcolor();
+		me.__1_b0.logicBlock_text();
 		me.__1_b0.logicBlock_textcolor();
 		me.__1b0.logicBlock_backgroundcolor();
 		me.__b.logicBlock_backgroundcolor();
+		me.__b0.logicBlock_text();
 		me.__b0.logicBlock_textcolor();
 		me.__b1.logicBlock_backgroundcolor();
 		me.__2_b1.logicBlock_backgroundcolor();
+		me.__2_b2.logicBlock_text();
 		me.__2_b2.logicBlock_textcolor();
 		me.__2b2.logicBlock_backgroundcolor();
 		me.__2_b.logicBlock_backgroundcolor();
+		me.__2_b0.logicBlock_text();
 		me.__2_b0.logicBlock_textcolor();
 		me.__2b0.logicBlock_backgroundcolor();
 		me.__3_b.logicBlock_backgroundcolor();
+		me.__3_b0.logicBlock_text();
 		me.__3_b0.logicBlock_textcolor();
 		me.__3b0.logicBlock_backgroundcolor();
 		me.__3.logicBlock_position();
@@ -13192,66 +14247,87 @@ function pano2vrSkin(player,base) {
 		me._map_2m.logicBlock_visible();
 		player.addListener('activehotspotchanged', function(event) {
 			me._rectangle_3.logicBlock_backgroundcolor();
+			me._text_9.logicBlock_text();
 			me._text_9.logicBlock_textcolor();
 			me.__36.logicBlock_backgroundcolor();
 			me.__32.logicBlock_backgroundcolor();
+			me.__33.logicBlock_text();
 			me.__33.logicBlock_textcolor();
 			me.__34.logicBlock_backgroundcolor();
 			me.__26.logicBlock_backgroundcolor();
+			me.__27.logicBlock_text();
 			me.__27.logicBlock_textcolor();
 			me.__28.logicBlock_backgroundcolor();
 			me.__1_3.logicBlock_backgroundcolor();
+			me.__1_4.logicBlock_text();
 			me.__1_4.logicBlock_textcolor();
 			me.__24.logicBlock_backgroundcolor();
 			me.__17.logicBlock_backgroundcolor();
+			me.__18.logicBlock_text();
 			me.__18.logicBlock_textcolor();
 			me.__19.logicBlock_backgroundcolor();
 			me.__1_1.logicBlock_backgroundcolor();
+			me.__1_2.logicBlock_text();
 			me.__1_2.logicBlock_textcolor();
 			me.__15.logicBlock_backgroundcolor();
 			me.__1_.logicBlock_backgroundcolor();
+			me.__1_0.logicBlock_text();
 			me.__1_0.logicBlock_textcolor();
 			me.__13.logicBlock_backgroundcolor();
 			me.__9.logicBlock_backgroundcolor();
+			me.__10.logicBlock_text();
 			me.__10.logicBlock_textcolor();
 			me.__11.logicBlock_backgroundcolor();
 			me.__2_1.logicBlock_backgroundcolor();
+			me.__2_2.logicBlock_text();
 			me.__2_2.logicBlock_textcolor();
 			me.__23.logicBlock_backgroundcolor();
 			me.__2_.logicBlock_backgroundcolor();
+			me.__2_0.logicBlock_text();
 			me.__2_0.logicBlock_textcolor();
 			me.__21.logicBlock_backgroundcolor();
 			me.__3_.logicBlock_backgroundcolor();
+			me.__3_0.logicBlock_text();
 			me.__3_0.logicBlock_textcolor();
 			me.__31.logicBlock_backgroundcolor();
 			me._rectangle_3b.logicBlock_backgroundcolor();
+			me._text_9b.logicBlock_text();
 			me._text_9b.logicBlock_textcolor();
 			me.__b9.logicBlock_backgroundcolor();
 			me._b3.logicBlock_backgroundcolor();
+			me.__b7.logicBlock_text();
 			me.__b7.logicBlock_textcolor();
 			me.__b8.logicBlock_backgroundcolor();
 			me.__1_b3.logicBlock_backgroundcolor();
+			me.__1_b4.logicBlock_text();
 			me.__1_b4.logicBlock_textcolor();
 			me.__b6.logicBlock_backgroundcolor();
 			me.__b3.logicBlock_backgroundcolor();
+			me.__b4.logicBlock_text();
 			me.__b4.logicBlock_textcolor();
 			me.__b5.logicBlock_backgroundcolor();
 			me.__1_b1.logicBlock_backgroundcolor();
+			me.__1_b2.logicBlock_text();
 			me.__1_b2.logicBlock_textcolor();
 			me.__b2.logicBlock_backgroundcolor();
 			me.__1_b.logicBlock_backgroundcolor();
+			me.__1_b0.logicBlock_text();
 			me.__1_b0.logicBlock_textcolor();
 			me.__1b0.logicBlock_backgroundcolor();
 			me.__b.logicBlock_backgroundcolor();
+			me.__b0.logicBlock_text();
 			me.__b0.logicBlock_textcolor();
 			me.__b1.logicBlock_backgroundcolor();
 			me.__2_b1.logicBlock_backgroundcolor();
+			me.__2_b2.logicBlock_text();
 			me.__2_b2.logicBlock_textcolor();
 			me.__2b2.logicBlock_backgroundcolor();
 			me.__2_b.logicBlock_backgroundcolor();
+			me.__2_b0.logicBlock_text();
 			me.__2_b0.logicBlock_textcolor();
 			me.__2b0.logicBlock_backgroundcolor();
 			me.__3_b.logicBlock_backgroundcolor();
+			me.__3_b0.logicBlock_text();
 			me.__3_b0.logicBlock_textcolor();
 			me.__3b0.logicBlock_backgroundcolor();
 		});
@@ -13278,67 +14354,88 @@ function pano2vrSkin(player,base) {
 			me.__5.logicBlock_alpha();
 			me.__7.logicBlock_visible();
 			me._rectangle_3.logicBlock_backgroundcolor();
+			me._text_9.logicBlock_text();
 			me._text_9.logicBlock_textcolor();
 			me.__36.logicBlock_backgroundcolor();
 			me.__32.logicBlock_backgroundcolor();
+			me.__33.logicBlock_text();
 			me.__33.logicBlock_textcolor();
 			me.__34.logicBlock_backgroundcolor();
 			me.__26.logicBlock_backgroundcolor();
+			me.__27.logicBlock_text();
 			me.__27.logicBlock_textcolor();
 			me.__28.logicBlock_backgroundcolor();
 			me.__1_3.logicBlock_backgroundcolor();
+			me.__1_4.logicBlock_text();
 			me.__1_4.logicBlock_textcolor();
 			me.__24.logicBlock_backgroundcolor();
 			me.__17.logicBlock_backgroundcolor();
+			me.__18.logicBlock_text();
 			me.__18.logicBlock_textcolor();
 			me.__19.logicBlock_backgroundcolor();
 			me.__1_1.logicBlock_backgroundcolor();
+			me.__1_2.logicBlock_text();
 			me.__1_2.logicBlock_textcolor();
 			me.__15.logicBlock_backgroundcolor();
 			me.__1_.logicBlock_backgroundcolor();
+			me.__1_0.logicBlock_text();
 			me.__1_0.logicBlock_textcolor();
 			me.__13.logicBlock_backgroundcolor();
 			me.__9.logicBlock_backgroundcolor();
+			me.__10.logicBlock_text();
 			me.__10.logicBlock_textcolor();
 			me.__11.logicBlock_backgroundcolor();
 			me.__2_1.logicBlock_backgroundcolor();
+			me.__2_2.logicBlock_text();
 			me.__2_2.logicBlock_textcolor();
 			me.__23.logicBlock_backgroundcolor();
 			me.__2_.logicBlock_backgroundcolor();
+			me.__2_0.logicBlock_text();
 			me.__2_0.logicBlock_textcolor();
 			me.__21.logicBlock_backgroundcolor();
 			me.__3_.logicBlock_backgroundcolor();
+			me.__3_0.logicBlock_text();
 			me.__3_0.logicBlock_textcolor();
 			me.__31.logicBlock_backgroundcolor();
 			me._b.logicBlock_visible();
 			me._rectangle_3b.logicBlock_backgroundcolor();
+			me._text_9b.logicBlock_text();
 			me._text_9b.logicBlock_textcolor();
 			me.__b9.logicBlock_backgroundcolor();
 			me._b3.logicBlock_backgroundcolor();
+			me.__b7.logicBlock_text();
 			me.__b7.logicBlock_textcolor();
 			me.__b8.logicBlock_backgroundcolor();
 			me.__1_b3.logicBlock_backgroundcolor();
+			me.__1_b4.logicBlock_text();
 			me.__1_b4.logicBlock_textcolor();
 			me.__b6.logicBlock_backgroundcolor();
 			me.__b3.logicBlock_backgroundcolor();
+			me.__b4.logicBlock_text();
 			me.__b4.logicBlock_textcolor();
 			me.__b5.logicBlock_backgroundcolor();
 			me.__1_b1.logicBlock_backgroundcolor();
+			me.__1_b2.logicBlock_text();
 			me.__1_b2.logicBlock_textcolor();
 			me.__b2.logicBlock_backgroundcolor();
 			me.__1_b.logicBlock_backgroundcolor();
+			me.__1_b0.logicBlock_text();
 			me.__1_b0.logicBlock_textcolor();
 			me.__1b0.logicBlock_backgroundcolor();
 			me.__b.logicBlock_backgroundcolor();
+			me.__b0.logicBlock_text();
 			me.__b0.logicBlock_textcolor();
 			me.__b1.logicBlock_backgroundcolor();
 			me.__2_b1.logicBlock_backgroundcolor();
+			me.__2_b2.logicBlock_text();
 			me.__2_b2.logicBlock_textcolor();
 			me.__2b2.logicBlock_backgroundcolor();
 			me.__2_b.logicBlock_backgroundcolor();
+			me.__2_b0.logicBlock_text();
 			me.__2_b0.logicBlock_textcolor();
 			me.__2b0.logicBlock_backgroundcolor();
 			me.__3_b.logicBlock_backgroundcolor();
+			me.__3_b0.logicBlock_text();
 			me.__3_b0.logicBlock_textcolor();
 			me.__3b0.logicBlock_backgroundcolor();
 			me.__3.logicBlock_visible();
@@ -13554,67 +14651,88 @@ function pano2vrSkin(player,base) {
 			me.__5.logicBlock_alpha();
 			me._scrollarea_1.ggUpdatePosition();
 			me._rectangle_3.logicBlock_backgroundcolor();
+			me._text_9.logicBlock_text();
 			me._text_9.logicBlock_textcolor();
 			me.__36.logicBlock_backgroundcolor();
 			me.__32.logicBlock_backgroundcolor();
+			me.__33.logicBlock_text();
 			me.__33.logicBlock_textcolor();
 			me.__34.logicBlock_backgroundcolor();
 			me.__26.logicBlock_backgroundcolor();
+			me.__27.logicBlock_text();
 			me.__27.logicBlock_textcolor();
 			me.__28.logicBlock_backgroundcolor();
 			me.__1_3.logicBlock_backgroundcolor();
+			me.__1_4.logicBlock_text();
 			me.__1_4.logicBlock_textcolor();
 			me.__24.logicBlock_backgroundcolor();
 			me.__17.logicBlock_backgroundcolor();
+			me.__18.logicBlock_text();
 			me.__18.logicBlock_textcolor();
 			me.__19.logicBlock_backgroundcolor();
 			me.__1_1.logicBlock_backgroundcolor();
+			me.__1_2.logicBlock_text();
 			me.__1_2.logicBlock_textcolor();
 			me.__15.logicBlock_backgroundcolor();
 			me.__1_.logicBlock_backgroundcolor();
+			me.__1_0.logicBlock_text();
 			me.__1_0.logicBlock_textcolor();
 			me.__13.logicBlock_backgroundcolor();
 			me.__9.logicBlock_backgroundcolor();
+			me.__10.logicBlock_text();
 			me.__10.logicBlock_textcolor();
 			me.__11.logicBlock_backgroundcolor();
 			me.__2_1.logicBlock_backgroundcolor();
+			me.__2_2.logicBlock_text();
 			me.__2_2.logicBlock_textcolor();
 			me.__23.logicBlock_backgroundcolor();
 			me.__2_.logicBlock_backgroundcolor();
+			me.__2_0.logicBlock_text();
 			me.__2_0.logicBlock_textcolor();
 			me.__21.logicBlock_backgroundcolor();
 			me.__3_.logicBlock_backgroundcolor();
+			me.__3_0.logicBlock_text();
 			me.__3_0.logicBlock_textcolor();
 			me.__31.logicBlock_backgroundcolor();
 			me._scrollarea_1b.ggUpdatePosition();
 			me._rectangle_3b.logicBlock_backgroundcolor();
+			me._text_9b.logicBlock_text();
 			me._text_9b.logicBlock_textcolor();
 			me.__b9.logicBlock_backgroundcolor();
 			me._b3.logicBlock_backgroundcolor();
+			me.__b7.logicBlock_text();
 			me.__b7.logicBlock_textcolor();
 			me.__b8.logicBlock_backgroundcolor();
 			me.__1_b3.logicBlock_backgroundcolor();
+			me.__1_b4.logicBlock_text();
 			me.__1_b4.logicBlock_textcolor();
 			me.__b6.logicBlock_backgroundcolor();
 			me.__b3.logicBlock_backgroundcolor();
+			me.__b4.logicBlock_text();
 			me.__b4.logicBlock_textcolor();
 			me.__b5.logicBlock_backgroundcolor();
 			me.__1_b1.logicBlock_backgroundcolor();
+			me.__1_b2.logicBlock_text();
 			me.__1_b2.logicBlock_textcolor();
 			me.__b2.logicBlock_backgroundcolor();
 			me.__1_b.logicBlock_backgroundcolor();
+			me.__1_b0.logicBlock_text();
 			me.__1_b0.logicBlock_textcolor();
 			me.__1b0.logicBlock_backgroundcolor();
 			me.__b.logicBlock_backgroundcolor();
+			me.__b0.logicBlock_text();
 			me.__b0.logicBlock_textcolor();
 			me.__b1.logicBlock_backgroundcolor();
 			me.__2_b1.logicBlock_backgroundcolor();
+			me.__2_b2.logicBlock_text();
 			me.__2_b2.logicBlock_textcolor();
 			me.__2b2.logicBlock_backgroundcolor();
 			me.__2_b.logicBlock_backgroundcolor();
+			me.__2_b0.logicBlock_text();
 			me.__2_b0.logicBlock_textcolor();
 			me.__2b0.logicBlock_backgroundcolor();
 			me.__3_b.logicBlock_backgroundcolor();
+			me.__3_b0.logicBlock_text();
 			me.__3_b0.logicBlock_textcolor();
 			me.__3b0.logicBlock_backgroundcolor();
 			me.__3.logicBlock_visible();
@@ -15419,7 +16537,7 @@ function pano2vrSkin(player,base) {
 		el=me._svg_3=document.createElement('div');
 		els=me._svg_3__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyBzdHJva2U9IiNmZmZmZmYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlLXdpZHRoPSIxLjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgY2xhc3M9ImZlYXRoZXIgZmVhdGhlci1wbHVzLWNpcmNsZSIgd2lkdGg9IjI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiIHN0cm9rZS1vcGFjaXR5PSIxIj4KIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+CiA8bGluZSB5MT0iOCIgeDE9IjEyIiB5Mj0iMTYiIHgyPSIxMiIvPgogPGxpbmUgeTE9IjEyIiB4MT0iOCIgeTI9IjEyIi'+
+		hs='data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLXBsdXMtY2lyY2xlIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI0IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2Utb3BhY2l0eT0iMSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KIDxjaXJjbGUgcj0iMTAiIGN5PSIxMiIgY3g9IjEyIi8+CiA8bGluZSB4MT0iMTIiIHkyPSIxNiIgeTE9IjgiIHgyPSIxMiIvPgogPGxpbmUgeDE9IjgiIHkyPSIxMiIgeTE9IjEyIi'+
 			'B4Mj0iMTYiLz4KPC9zdmc+Cg==';
 		me._svg_3__img.setAttribute('src',hs);
 		hs ='';
