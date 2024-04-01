@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ??VR ?? - ?????.ggsk
-// Generated 2024-04-01T17:17:33
+// Generated 2024-04-01T17:39:16
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_dropdown', 2, false, { ignoreInState: 0  });
@@ -1217,7 +1217,7 @@ function pano2vrSkin(player,base) {
 		me._footer.logicBlock_size = function() {
 			var newLogicStateSize;
 			if (
-				((player.getViewerSize().width <= 320))
+				((player.getViewerSize().width <= 360))
 			)
 			{
 				newLogicStateSize = 0;
@@ -1330,7 +1330,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='border : 0px solid #000000;';
-		hs+='color : rgba(161,161,161,1);';
+		hs+='color : rgba(117,117,117,1);';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
 		hs+='left : 0px;';
@@ -1416,7 +1416,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='border : 0px solid #000000;';
-		hs+='color : rgba(161,161,161,1);';
+		hs+='color : rgba(117,117,117,1);';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
 		hs+='left : 0px;';
@@ -3528,16 +3528,22 @@ function pano2vrSkin(player,base) {
 		me.__38.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
-				((player.getVariableValue('vis_bigfloor') == true))
+				((player.getViewerSize().width <= 640))
 			)
 			{
 				newLogicStateVisible = 0;
 			}
 			else if (
-				((player.getVariableValue('vis_mdropdown') == true))
+				((player.getVariableValue('vis_bigfloor') == true))
 			)
 			{
 				newLogicStateVisible = 1;
+			}
+			else if (
+				((player.getVariableValue('vis_mdropdown') == true))
+			)
+			{
+				newLogicStateVisible = 2;
 			}
 			else {
 				newLogicStateVisible = -1;
@@ -3550,6 +3556,10 @@ function pano2vrSkin(player,base) {
 					me.__38.ggVisible=false;
 				}
 				else if (me.__38.ggCurrentLogicStateVisible == 1) {
+					me.__38.style.visibility="hidden";
+					me.__38.ggVisible=false;
+				}
+				else if (me.__38.ggCurrentLogicStateVisible == 2) {
 					me.__38.style.visibility=(Number(me.__38.style.opacity)>0||!me.__38.style.opacity)?'inherit':'hidden';
 					me.__38.ggVisible=true;
 				}
@@ -4887,7 +4897,7 @@ function pano2vrSkin(player,base) {
 		me._m.logicBlock_position = function() {
 			var newLogicStatePosition;
 			if (
-				((player.getViewerSize().width <= 460))
+				((player.getViewerSize().width <= 480))
 			)
 			{
 				newLogicStatePosition = 0;
@@ -5242,6 +5252,41 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me.__.logicBlock_position = function() {
+			var newLogicStatePosition;
+			if (
+				((player.getViewerSize().width <= 480))
+			)
+			{
+				newLogicStatePosition = 0;
+			}
+			else if (
+				((player.getViewerSize().width <= 640))
+			)
+			{
+				newLogicStatePosition = 1;
+			}
+			else {
+				newLogicStatePosition = -1;
+			}
+			if (me.__.ggCurrentLogicStatePosition != newLogicStatePosition) {
+				me.__.ggCurrentLogicStatePosition = newLogicStatePosition;
+				me.__.style.transition='right 0s, bottom 0s, width 800ms linear 0ms, height 800ms linear 0ms, transform 0s, opacity 1000ms ease 0ms';
+				if (me.__.ggCurrentLogicStatePosition == 0) {
+					me.__.style.right='-20px';
+					me.__.style.bottom='170px';
+				}
+				else if (me.__.ggCurrentLogicStatePosition == 1) {
+					me.__.style.right='0px';
+					me.__.style.bottom='140px';
+				}
+				else {
+					me.__.style.right='30px';
+					me.__.style.bottom='80px';
+				}
+			}
+		}
+		me.__.logicBlock_position();
 		me.__.logicBlock_size = function() {
 			var newLogicStateSize;
 			if (
@@ -5255,7 +5300,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__.ggCurrentLogicStateSize != newLogicStateSize) {
 				me.__.ggCurrentLogicStateSize = newLogicStateSize;
-				me.__.style.transition='width 800ms linear 0ms, height 800ms linear 0ms, opacity 1000ms ease 0ms';
+				me.__.style.transition='right 0s, bottom 0s, width 800ms linear 0ms, height 800ms linear 0ms, transform 0s, opacity 1000ms ease 0ms';
 				if (me.__.ggCurrentLogicStateSize == 0) {
 					me.__.style.width='220px';
 					me.__.style.height='0px';
@@ -5269,6 +5314,47 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.__.logicBlock_size();
+		me.__.logicBlock_scaling = function() {
+			var newLogicStateScaling;
+			if (
+				((player.getViewerSize().width <= 480))
+			)
+			{
+				newLogicStateScaling = 0;
+			}
+			else if (
+				((player.getViewerSize().width <= 640))
+			)
+			{
+				newLogicStateScaling = 1;
+			}
+			else {
+				newLogicStateScaling = -1;
+			}
+			if (me.__.ggCurrentLogicStateScaling != newLogicStateScaling) {
+				me.__.ggCurrentLogicStateScaling = newLogicStateScaling;
+				me.__.style.transition='right 0s, bottom 0s, width 800ms linear 0ms, height 800ms linear 0ms, transform 0s, opacity 1000ms ease 0ms';
+				if (me.__.ggCurrentLogicStateScaling == 0) {
+					me.__.ggParameter.sx = 0.65;
+					me.__.ggParameter.sy = 1;
+					me.__.style.transform=parameterToTransform(me.__.ggParameter);
+					skin.updateSize(me.__);
+				}
+				else if (me.__.ggCurrentLogicStateScaling == 1) {
+					me.__.ggParameter.sx = 0.8;
+					me.__.ggParameter.sy = 1;
+					me.__.style.transform=parameterToTransform(me.__.ggParameter);
+					skin.updateSize(me.__);
+				}
+				else {
+					me.__.ggParameter.sx = 1;
+					me.__.ggParameter.sy = 1;
+					me.__.style.transform=parameterToTransform(me.__.ggParameter);
+					skin.updateSize(me.__);
+				}
+			}
+		}
+		me.__.logicBlock_scaling();
 		me.__.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
@@ -5282,7 +5368,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__.ggCurrentLogicStateVisible != newLogicStateVisible) {
 				me.__.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me.__.style.transition='width 800ms linear 0ms, height 800ms linear 0ms, opacity 1000ms ease 0ms';
+				me.__.style.transition='right 0s, bottom 0s, width 800ms linear 0ms, height 800ms linear 0ms, transform 0s, opacity 1000ms ease 0ms';
 				if (me.__.ggCurrentLogicStateVisible == 0) {
 					me.__.style.visibility="hidden";
 					me.__.ggVisible=false;
@@ -5307,7 +5393,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__.ggCurrentLogicStateAlpha != newLogicStateAlpha) {
 				me.__.ggCurrentLogicStateAlpha = newLogicStateAlpha;
-				me.__.style.transition='width 800ms linear 0ms, height 800ms linear 0ms, opacity 1000ms ease 0ms';
+				me.__.style.transition='right 0s, bottom 0s, width 800ms linear 0ms, height 800ms linear 0ms, transform 0s, opacity 1000ms ease 0ms';
 				if (me.__.ggCurrentLogicStateAlpha == 0) {
 					setTimeout(function() { if (me.__.style.opacity == 0.0) { me.__.style.visibility="hidden"; } }, 1005);
 					me.__.style.opacity=0;
@@ -5482,106 +5568,6 @@ function pano2vrSkin(player,base) {
 		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
 			els.onpointerdown = me.__84a___content.mousetouchstart;
 		}
-		elHorScrollBg = me.__84a___horScrollBg = document.createElement('div');
-		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 231px; height: 3px; background-color: rgba(255,255,255,1); pointer-events: auto;');
-		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
-		elHorScrollFg = me.__84a___horScrollFg = document.createElement('div');
-		elHorScrollBg.appendChild(elHorScrollFg);
-		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 231px; height: 3px; background-color: rgba(161,161,161,1); pointer-events: auto;');
-		me.__84a_.ggScrollPosX = 0;
-		me.__84a_.ggScrollPosXPercent = 0.0;
-		elHorScrollFg.onmousedown = function(e) {
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) return;
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			me.__84a_.ggDragLastX = e.clientX;
-			document.onmouseup = function() {
-				let inertiaInterval = setInterval(function() {
-					me.__84a_.ggDragInertiaX *= 0.65;
-					me.__84a_.ggScrollByX(me.__84a_.ggDragInertiaX);
-					if (Math.abs(me.__84a_.ggDragInertiaX) < 1.0) {
-						clearInterval(inertiaInterval);
-					}
-					}, 50);
-				document.onmouseup = null;
-				document.onmousemove = null;
-			}
-			document.onmousemove = function(e) {
-				e = e || window.event;
-				e.preventDefault();
-				var diffX = e.clientX - me.__84a_.ggDragLastX;
-				me.__84a_.ggDragInertiaX = diffX;
-				me.__84a_.ggDragLastX = e.clientX;
-				me.__84a_.ggScrollByX(diffX);
-			}
-		}
-		elHorScrollFg.ontouchstart = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			var t = e.touches;
-			me.__84a_.ggDragLastX = t ? t[0].clientX : e.clientX;
-			document.ontouchend = function() {
-				let inertiaInterval = setInterval(function() {
-					me.__84a_.ggDragInertiaX *= 0.65;
-					me.__84a_.ggScrollByX(me.__84a_.ggDragInertiaX);
-					if (Math.abs(me.__84a_.ggDragInertiaX) < 1.0) {
-						clearInterval(inertiaInterval);
-					}
-					}, 50);
-				document.ontouchend = null;
-				document.ontouchmove = null;
-				document.onpointerup = null;
-				document.onpointermove = null;
-			}
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				document.onpointerup = document.ontouchend;
-			}
-			document.ontouchmove = function(e) {
-				e = e || window.event;
-				e.preventDefault();
-				var t = e.touches;
-				var diffX = (t ? t[0].clientX : e.clientX) - me.__84a_.ggDragLastX;
-				me.__84a_.ggDragInertiaX = diffX;
-				me.__84a_.ggDragLastX = t ? t[0].clientX : e.clientX;
-				me.__84a_.ggScrollByX(diffX);
-			}
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				document.onpointermove = document.ontouchmove;
-			}
-		}
-		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-			elHorScrollFg.onpointerdown = elHorScrollFg.ontouchstart;
-		}
-		elHorScrollBg.onmousedown = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			var diffX = me.__84a_.ggScrollWidth;
-			if (e.offsetX < me.__84a_.ggScrollPosX) {
-				diffX = diffX * -1;
-			}
-			me.__84a_.ggScrollByXSmooth(diffX);
-		}
-		elHorScrollBg.ontouchstart = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			var t = e.touches;
-			var rect = me.__84a___horScrollBg.getBoundingClientRect();
-			var diffX = me.__84a_.ggScrollWidth;
-			if ((t[0].clientX - rect.left) < me.__84a_.ggScrollPosX) {
-				diffX = diffX * -1;
-			}
-			me.__84a_.ggScrollByXSmooth(diffX);
-		}
-		el.addEventListener('wheel', function(e) {
-			e.preventDefault();
-			var wheelDelta = Math.sign(e.deltaX);
-			me.__84a_.ggScrollByXSmooth(30 * me.__84a_.ggHPercentVisible * wheelDelta);
-		});
 		elVertScrollBg = me.__84a___vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
 		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 3px; height: 337.5px; background-color: rgba(255,255,255,1); pointer-events: auto;');
@@ -5787,60 +5773,13 @@ function pano2vrSkin(player,base) {
 				this.ggContentWidth = contentWidth / scaleX;
 			var scaleY = this.getBoundingClientRect().height / this.offsetHeight;
 				this.ggContentHeight = contentHeight / scaleY;
-				this.ggContent.style.left = -(Math.round(me.__84a_.ggScrollPosX / me.__84a_.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.marginLeft = '0px';
 				this.ggContent.style.top = -(Math.round(me.__84a_.ggScrollPosY / me.__84a_.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				this.ggContent.style.marginTop = '0px';
-				if (contentWidth > Math.ceil(offsetWidthWithScale)) {
-					me.__84a___horScrollBg.style.visibility = 'inherit';
-					me.__84a___horScrollFg.style.visibility = 'inherit';
-					me.__84a_.ggHorScrollVisible = true;
-				} else {
-					me.__84a___horScrollBg.style.visibility = 'hidden';
-					me.__84a___horScrollFg.style.visibility = 'hidden';
-					me.__84a_.ggHorScrollVisible = false;
-				}
-				if ((me.__84a_.ggHorScrollVisible && contentHeight > this.clientHeight - 3) || (!me.__84a_.ggHorScrollVisible && contentHeight > this.clientHeight)) {
-					me.__84a___vertScrollBg.style.visibility = 'inherit';
-					me.__84a___vertScrollFg.style.visibility = 'inherit';
-					me.__84a_.ggVertScrollVisible = true;
-					if (!me.__84a_.ggHorScrollVisible && (contentWidth > offsetWidthWithScale - me.__84a___vertScrollBg.getBoundingClientRect().width)) {
-						me.__84a___horScrollBg.style.visibility = 'inherit';
-						me.__84a___horScrollFg.style.visibility = 'inherit';
-						me.__84a_.ggHorScrollVisible = true;
-					}
-				} else {
-					me.__84a___vertScrollBg.style.visibility = 'hidden';
-					me.__84a___vertScrollFg.style.visibility = 'hidden';
-					me.__84a_.ggVertScrollVisible = false;
-				}
-				if(me.__84a_.ggHorScrollVisible) {
-					me.__84a_.ggAvailableHeight = me.__84a_.clientHeight - 3;
-					if (me.__84a_.ggVertScrollVisible) {
-						me.__84a_.ggAvailableWidth = me.__84a_.clientWidth - 3;
-						me.__84a_.ggAvailableWidthWithScale = me.__84a_.getBoundingClientRect().width - me.__84a___horScrollBg.getBoundingClientRect().height;
-					} else {
-						me.__84a_.ggAvailableWidth = me.__84a_.clientWidth;
-						me.__84a_.ggAvailableWidthWithScale = me.__84a_.getBoundingClientRect().width;
-					}
-					me.__84a___horScrollBg.style.width = me.__84a_.ggAvailableWidth + 'px';
-					me.__84a_.ggHPercentVisible = contentWidth != 0 ? me.__84a_.ggAvailableWidthWithScale / contentWidth : 0.0;
-					if (me.__84a_.ggHPercentVisible > 1.0) me.__84a_.ggHPercentVisible = 1.0;
-					me.__84a_.ggScrollWidth = Math.round(me.__84a___horScrollBg.offsetWidth * me.__84a_.ggHPercentVisible);
-					me.__84a___horScrollFg.style.width = me.__84a_.ggScrollWidth + 'px';
-					me.__84a_.ggScrollPosX = me.__84a_.ggScrollPosXPercent * me.__84a_.ggAvailableWidth;
-					me.__84a_.ggScrollPosX = Math.min(me.__84a_.ggScrollPosX, me.__84a___horScrollBg.offsetWidth - me.__84a___horScrollFg.offsetWidth);
-					me.__84a___horScrollFg.style.left = me.__84a_.ggScrollPosX + 'px';
-					if (me.__84a_.ggHPercentVisible < 1.0) {
-						let percentScrolled = me.__84a_.ggScrollPosX / (me.__84a___horScrollBg.offsetWidth - me.__84a___horScrollFg.offsetWidth);
-						me.__84a___content.style.left = -(Math.round((me.__84a_.ggContentWidth * (1.0 - me.__84a_.ggHPercentVisible)) * percentScrolled)) + this.ggContentLeftOffset + 'px';
-					}
-				} else {
-					me.__84a_.ggAvailableHeight = me.__84a_.clientHeight;
-					me.__84a_.ggScrollPosX = 0;
-					me.__84a_.ggScrollPosXPercent = 0.0;
-					me.__84a___content.style.left = this.ggContentLeftOffset + 'px';
-				}
+				me.__84a___vertScrollBg.style.visibility = 'inherit';
+				me.__84a___vertScrollFg.style.visibility = 'inherit';
+				me.__84a_.ggVertScrollVisible = true;
 				if(me.__84a_.ggVertScrollVisible) {
 					me.__84a_.ggAvailableWidth = me.__84a_.clientWidth - 3;
 					if (me.__84a_.ggHorScrollVisible) {
@@ -8668,106 +8607,6 @@ function pano2vrSkin(player,base) {
 		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
 			els.onpointerdown = me.__84b___content.mousetouchstart;
 		}
-		elHorScrollBg = me.__84b___horScrollBg = document.createElement('div');
-		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 231px; height: 3px; background-color: rgba(255,255,255,1); pointer-events: auto;');
-		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
-		elHorScrollFg = me.__84b___horScrollFg = document.createElement('div');
-		elHorScrollBg.appendChild(elHorScrollFg);
-		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 231px; height: 3px; background-color: rgba(161,161,161,1); pointer-events: auto;');
-		me.__84b_.ggScrollPosX = 0;
-		me.__84b_.ggScrollPosXPercent = 0.0;
-		elHorScrollFg.onmousedown = function(e) {
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) return;
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			me.__84b_.ggDragLastX = e.clientX;
-			document.onmouseup = function() {
-				let inertiaInterval = setInterval(function() {
-					me.__84b_.ggDragInertiaX *= 0.65;
-					me.__84b_.ggScrollByX(me.__84b_.ggDragInertiaX);
-					if (Math.abs(me.__84b_.ggDragInertiaX) < 1.0) {
-						clearInterval(inertiaInterval);
-					}
-					}, 50);
-				document.onmouseup = null;
-				document.onmousemove = null;
-			}
-			document.onmousemove = function(e) {
-				e = e || window.event;
-				e.preventDefault();
-				var diffX = e.clientX - me.__84b_.ggDragLastX;
-				me.__84b_.ggDragInertiaX = diffX;
-				me.__84b_.ggDragLastX = e.clientX;
-				me.__84b_.ggScrollByX(diffX);
-			}
-		}
-		elHorScrollFg.ontouchstart = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			var t = e.touches;
-			me.__84b_.ggDragLastX = t ? t[0].clientX : e.clientX;
-			document.ontouchend = function() {
-				let inertiaInterval = setInterval(function() {
-					me.__84b_.ggDragInertiaX *= 0.65;
-					me.__84b_.ggScrollByX(me.__84b_.ggDragInertiaX);
-					if (Math.abs(me.__84b_.ggDragInertiaX) < 1.0) {
-						clearInterval(inertiaInterval);
-					}
-					}, 50);
-				document.ontouchend = null;
-				document.ontouchmove = null;
-				document.onpointerup = null;
-				document.onpointermove = null;
-			}
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				document.onpointerup = document.ontouchend;
-			}
-			document.ontouchmove = function(e) {
-				e = e || window.event;
-				e.preventDefault();
-				var t = e.touches;
-				var diffX = (t ? t[0].clientX : e.clientX) - me.__84b_.ggDragLastX;
-				me.__84b_.ggDragInertiaX = diffX;
-				me.__84b_.ggDragLastX = t ? t[0].clientX : e.clientX;
-				me.__84b_.ggScrollByX(diffX);
-			}
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				document.onpointermove = document.ontouchmove;
-			}
-		}
-		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-			elHorScrollFg.onpointerdown = elHorScrollFg.ontouchstart;
-		}
-		elHorScrollBg.onmousedown = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			var diffX = me.__84b_.ggScrollWidth;
-			if (e.offsetX < me.__84b_.ggScrollPosX) {
-				diffX = diffX * -1;
-			}
-			me.__84b_.ggScrollByXSmooth(diffX);
-		}
-		elHorScrollBg.ontouchstart = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			var t = e.touches;
-			var rect = me.__84b___horScrollBg.getBoundingClientRect();
-			var diffX = me.__84b_.ggScrollWidth;
-			if ((t[0].clientX - rect.left) < me.__84b_.ggScrollPosX) {
-				diffX = diffX * -1;
-			}
-			me.__84b_.ggScrollByXSmooth(diffX);
-		}
-		el.addEventListener('wheel', function(e) {
-			e.preventDefault();
-			var wheelDelta = Math.sign(e.deltaX);
-			me.__84b_.ggScrollByXSmooth(30 * me.__84b_.ggHPercentVisible * wheelDelta);
-		});
 		elVertScrollBg = me.__84b___vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
 		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 3px; height: 337.5px; background-color: rgba(255,255,255,1); pointer-events: auto;');
@@ -8972,60 +8811,13 @@ function pano2vrSkin(player,base) {
 				this.ggContentWidth = contentWidth / scaleX;
 			var scaleY = this.getBoundingClientRect().height / this.offsetHeight;
 				this.ggContentHeight = contentHeight / scaleY;
-				this.ggContent.style.left = -(Math.round(me.__84b_.ggScrollPosX / me.__84b_.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.marginLeft = '0px';
 				this.ggContent.style.top = -(Math.round(me.__84b_.ggScrollPosY / me.__84b_.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				this.ggContent.style.marginTop = '0px';
-				if (contentWidth > Math.ceil(offsetWidthWithScale)) {
-					me.__84b___horScrollBg.style.visibility = 'inherit';
-					me.__84b___horScrollFg.style.visibility = 'inherit';
-					me.__84b_.ggHorScrollVisible = true;
-				} else {
-					me.__84b___horScrollBg.style.visibility = 'hidden';
-					me.__84b___horScrollFg.style.visibility = 'hidden';
-					me.__84b_.ggHorScrollVisible = false;
-				}
-				if ((me.__84b_.ggHorScrollVisible && contentHeight > this.clientHeight - 3) || (!me.__84b_.ggHorScrollVisible && contentHeight > this.clientHeight)) {
-					me.__84b___vertScrollBg.style.visibility = 'inherit';
-					me.__84b___vertScrollFg.style.visibility = 'inherit';
-					me.__84b_.ggVertScrollVisible = true;
-					if (!me.__84b_.ggHorScrollVisible && (contentWidth > offsetWidthWithScale - me.__84b___vertScrollBg.getBoundingClientRect().width)) {
-						me.__84b___horScrollBg.style.visibility = 'inherit';
-						me.__84b___horScrollFg.style.visibility = 'inherit';
-						me.__84b_.ggHorScrollVisible = true;
-					}
-				} else {
-					me.__84b___vertScrollBg.style.visibility = 'hidden';
-					me.__84b___vertScrollFg.style.visibility = 'hidden';
-					me.__84b_.ggVertScrollVisible = false;
-				}
-				if(me.__84b_.ggHorScrollVisible) {
-					me.__84b_.ggAvailableHeight = me.__84b_.clientHeight - 3;
-					if (me.__84b_.ggVertScrollVisible) {
-						me.__84b_.ggAvailableWidth = me.__84b_.clientWidth - 3;
-						me.__84b_.ggAvailableWidthWithScale = me.__84b_.getBoundingClientRect().width - me.__84b___horScrollBg.getBoundingClientRect().height;
-					} else {
-						me.__84b_.ggAvailableWidth = me.__84b_.clientWidth;
-						me.__84b_.ggAvailableWidthWithScale = me.__84b_.getBoundingClientRect().width;
-					}
-					me.__84b___horScrollBg.style.width = me.__84b_.ggAvailableWidth + 'px';
-					me.__84b_.ggHPercentVisible = contentWidth != 0 ? me.__84b_.ggAvailableWidthWithScale / contentWidth : 0.0;
-					if (me.__84b_.ggHPercentVisible > 1.0) me.__84b_.ggHPercentVisible = 1.0;
-					me.__84b_.ggScrollWidth = Math.round(me.__84b___horScrollBg.offsetWidth * me.__84b_.ggHPercentVisible);
-					me.__84b___horScrollFg.style.width = me.__84b_.ggScrollWidth + 'px';
-					me.__84b_.ggScrollPosX = me.__84b_.ggScrollPosXPercent * me.__84b_.ggAvailableWidth;
-					me.__84b_.ggScrollPosX = Math.min(me.__84b_.ggScrollPosX, me.__84b___horScrollBg.offsetWidth - me.__84b___horScrollFg.offsetWidth);
-					me.__84b___horScrollFg.style.left = me.__84b_.ggScrollPosX + 'px';
-					if (me.__84b_.ggHPercentVisible < 1.0) {
-						let percentScrolled = me.__84b_.ggScrollPosX / (me.__84b___horScrollBg.offsetWidth - me.__84b___horScrollFg.offsetWidth);
-						me.__84b___content.style.left = -(Math.round((me.__84b_.ggContentWidth * (1.0 - me.__84b_.ggHPercentVisible)) * percentScrolled)) + this.ggContentLeftOffset + 'px';
-					}
-				} else {
-					me.__84b_.ggAvailableHeight = me.__84b_.clientHeight;
-					me.__84b_.ggScrollPosX = 0;
-					me.__84b_.ggScrollPosXPercent = 0.0;
-					me.__84b___content.style.left = this.ggContentLeftOffset + 'px';
-				}
+				me.__84b___vertScrollBg.style.visibility = 'inherit';
+				me.__84b___vertScrollFg.style.visibility = 'inherit';
+				me.__84b_.ggVertScrollVisible = true;
 				if(me.__84b_.ggVertScrollVisible) {
 					me.__84b_.ggAvailableWidth = me.__84b_.clientWidth - 3;
 					if (me.__84b_.ggHorScrollVisible) {
@@ -18152,7 +17944,9 @@ function pano2vrSkin(player,base) {
 			me._map_2m.ggSimpleFloorplanMarkerArray=[];
 		}
 		me._map_2m.logicBlock_visible();
+		me.__.logicBlock_position();
 		me.__.logicBlock_size();
+		me.__.logicBlock_scaling();
 		me.__.logicBlock_visible();
 		me.__.logicBlock_alpha();
 		me.__84a_.logicBlock_visible();
@@ -18671,12 +18465,15 @@ function pano2vrSkin(player,base) {
 			me._text_3m.logicBlock_visible();
 			me.__60.logicBlock_visible();
 			me.__38.logicBlock_position();
+			me.__38.logicBlock_visible();
 			me.__35.logicBlock_size();
 			me._mobile_catagory.logicBlock_position();
 			me._mobile_catagory.logicBlock_visible();
 			me._m2.logicBlock_position();
 			me._m.logicBlock_position();
 			me._m.logicBlock_visible();
+			me.__.logicBlock_position();
+			me.__.logicBlock_scaling();
 		});
 		player.addListener('varchanged_vis_bigfloor', function(event) {
 			me.__38.logicBlock_visible();
