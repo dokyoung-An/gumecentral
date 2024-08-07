@@ -14,7 +14,11 @@
 	"player": {
 		"js": "pano2vr_player.js"
 	},
+<<<<<<< HEAD
 	"creationdate": "2024-04-01T09:40:14.618Z",
+=======
+	"creationdate": "2024-04-01T08:39:16.877Z",
+>>>>>>> parent of b158dd04 (수정21)
 	"configuration": "pano.xml",
 	"preview": {
 		"img": "preview.jpg",
